@@ -209,9 +209,7 @@ class HierarchicalTransformerEncoder(EncoderBase):
         """
         self._check_args(src, lengths)
         seq_len, bsz, _ = src.shape
-        print('Sequence length: {}'.format(seq_len))
         n_ents = seq_len // self.ent_size
-        print('n_ents: {}'.format(n_ents))
         
          # sanity check
         assert seq_len % n_ents == 0
