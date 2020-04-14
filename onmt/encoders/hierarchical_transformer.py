@@ -208,13 +208,12 @@ class HierarchicalTransformerEncoder(EncoderBase):
         2 <-- (value, type)
         """
         self._check_args(src, lengths)
-        print('Source shape: {}'.format(src.shape))
         seq_len, bsz, _ = src.shape
+        print('Sequence length: {}'.format(seq_len))
         n_ents = seq_len // self.ent_size
+        print('n_ents: {}'.format(n_ents))
         
          # sanity check
-        print('Sequence length: {}'.format(seq_len))
-        print('n_ents: {}'.format(n_ents))
         assert seq_len % n_ents == 0
         assert seq_len == lengths.max()
         
