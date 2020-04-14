@@ -9,7 +9,7 @@ import argparse
 DELIM = "￨"
 
 # for each entry we add 3 values. each entry has utmost 30 values and then 3 values at end
-ENT_SIZE = 94
+ENT_SIZE = 214
 
 """
 Final form for each entry:
