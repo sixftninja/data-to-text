@@ -13,7 +13,7 @@ import onmt.utils.optimizers
 onmt.utils.optimizers.Optim = onmt.utils.optimizers.Optimizer
 sys.modules["onmt.Optim"] = onmt.utils.optimizers
 
-ENT_SIZE = 24  # Used for hierarchical training on RotoWire
+ENT_SIZE = 94  # Used for hierarchical training on RotoWire
 
 # For Flake
 __all__ = [onmt.inputters, onmt.encoders, onmt.decoders, onmt.models,
