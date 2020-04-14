@@ -213,6 +213,8 @@ class HierarchicalTransformerEncoder(EncoderBase):
         n_ents = seq_len // self.ent_size
         
          # sanity check
+        print('Sequence length: {}'.format(seq_len))
+        print('No. of entities: {}'.format(n_ents))
         assert seq_len % n_ents == 0
         assert seq_len == lengths.max()
         
