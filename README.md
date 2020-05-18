@@ -1,4 +1,4 @@
-# Data-to-Text [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-hierarchical-model-for-data-to-text/data-to-text-generation-on-rotowire)](https://paperswithcode.com/sota/data-to-text-generation-on-rotowire?p=a-hierarchical-model-for-data-to-text)
+# Data-to-Text [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-hierarchical-model-for-data-to-text/data-to-text-generation-on-rotowire)]
 
 ## Install packages and create env
 #### Debian Packages:
